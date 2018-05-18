@@ -1,0 +1,17 @@
+Contents:
+
+Title					Description
+=======================================================================================
+bin
+ /matmulACC				Matmul executable with OpenACC directives
+ /matmulMP				Matmul executable with OpenMP directives
+ /matmulSerial			Matmul without parallel preprocessor directives
+
+src
+ /Makefile				Makefile with various make commands for compile and testing
+ /matmul.c				Main source file with optimum OpenACC directives
+
+TestResults.xlsx		Results from all test trails with generated charts
+Report.docx				Formal report
+README.txt				This readme file with project contents
+results.txt				Original results output from runs executed with Makefile on Stampede2
